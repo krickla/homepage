@@ -148,7 +148,7 @@ export default function Home() {
         {activeSection === 'thesis' && (
           <section className="space-y-8">
             <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8">
-              <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Master&apos Thesis</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Master&apos;s Thesis</h2>
               <div className="bg-green-50 dark:bg-slate-700 p-6 rounded-lg mb-6">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
                   [Patterns in Mental Health Data: Discovering Types in Traits and Perceptual Performance in Autism Spectrum Condition Using Tangles ]
