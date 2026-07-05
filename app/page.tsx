@@ -11,7 +11,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="bg-white dark:bg-slate-900 shadow-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">Cognitive Neuroscience</h1>
+          <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">Alexander Krickl - Cognitive Neuroscientist</h1>
           <div className="flex gap-6">
             <button
               onClick={() => setActiveSection('home')}
@@ -65,15 +65,15 @@ export default function Home() {
             <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8">
               <h2 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">Welcome</h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-                I am a Master's student in Cognitive Neuroscience passionate about understanding the neural mechanisms underlying cognition and behavior. This portfolio showcases my research, academic work, and insights in the field.
+                I am a Master&apos;s student in Cognitive Neuroscience passionate about understanding the mechanisms underlying cognition and behavior. This portfolio showcases my research, academic work, and insights in the field.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
                 <div className="bg-blue-50 dark:bg-slate-700 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold mb-3 text-blue-600 dark:text-blue-400">Research Interests</h3>
                   <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-2">
-                    <li>• Neural plasticity and learning</li>
-                    <li>• Memory systems</li>
-                    <li>• Neuroimaging methods</li>
+                    <li>• Psychopathology</li>
+                    <li>• Clustering</li>
+                    <li>• 4E Cognition</li>
                   </ul>
                 </div>
                 <div className="bg-green-50 dark:bg-slate-700 p-6 rounded-lg">
@@ -121,8 +121,8 @@ export default function Home() {
                   <h3 className="text-2xl font-semibold mb-3 text-gray-900 dark:text-white">Education</h3>
                   <div className="border-l-4 border-blue-600 pl-4">
                     <h4 className="font-bold text-gray-900 dark:text-white">Master of Science in Cognitive Neuroscience</h4>
-                    <p className="text-gray-700 dark:text-gray-300">University Name • 2024-2026</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Thesis focus: [Your research topic]</p>
+                    <p className="text-gray-700 dark:text-gray-300">Berlin School of Mind and Brain - Humboldt University • 2021-2025</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Thesis focus: [A Novel Clustering Approach in Complex Autism Spectrum Data]</p>
                   </div>
                 </div>
 
@@ -131,7 +131,7 @@ export default function Home() {
                   <div className="border-l-4 border-green-600 pl-4 space-y-4">
                     <div>
                       <h4 className="font-bold text-gray-900 dark:text-white">Research Assistant</h4>
-                      <p className="text-gray-700 dark:text-gray-300">Lab Name • 2023-Present</p>
+                      <p className="text-gray-700 dark:text-gray-300">Charité - Universitätsmedizin Berlin • 2023-Present</p>
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 dark:text-white">Laboratory Internship</h4>
@@ -148,10 +148,10 @@ export default function Home() {
         {activeSection === 'thesis' && (
           <section className="space-y-8">
             <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8">
-              <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Master's Thesis</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Master&apos Thesis</h2>
               <div className="bg-green-50 dark:bg-slate-700 p-6 rounded-lg mb-6">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                  [Your Thesis Title]
+                  [Patterns in Mental Health Data: Discovering Types in Traits and Perceptual Performance in Autism Spectrum Condition Using Tangles ]
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
                   A comprehensive study investigating [main topic]. This research contributes to our understanding of...
@@ -169,7 +169,7 @@ export default function Home() {
                 <div>
                   <h4 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">Abstract</h4>
                   <p className="text-gray-700 dark:text-gray-300">
-                    [Add your thesis abstract here. Describe the background, methodology, key findings, and implications of your research.]
+                    [Mental health research faces persistent challenges in delineating robust and clinically meaningful subtypes due to heterogeneous symptom distributions and the constraints of conventional clustering methods. This thesis applies tangles, a novel graph-theoretic framework, to investigate heterogeneity in autism spectrum condition (ASC). In contrast to probabilistic clustering, tangles identify recurrent constellations of features without strong distributional assumptions, thereby yielding transparent and interpretable structural decompositions. Data from 247 adults (138 ASC, 111 controls) were analyzed using combined psychometric and behavioral measures. Tangles analyses were conducted at two levels: (A) cross-group comparison of ASC and controls, and (B) within-group exploration of ASC heterogeneity. Findings demonstrate that tangles successfully differentiated clinical from non-clinical participants while also uncovering meaningful within-spectrum substructure. The Tree Set identified salient features and typical combinations characteristic of each group, whereas the Tree of Tangles captured the hierarchical organization of subgroups. Within ASC, tangles revealed a dual structure comprising a high-burden stress–anxiety phenotype and a heterogeneous regulatory proflie, with finer-grained subtypes distinguished by emotion regulation strategies, stress appraisal, and cognitive–affective burden. These subgroups align with prior research yet extend it by providing mathematically grounded and hierarchically organized results. Collectively, the findings validate tangles as a promising methodological innovation for psychiatric research. By uncovering interpretable hierarchical structures in heterogeneous datasets, tangles advance conceptualization of ASC as comprising distinct subgroups rather than a uniform condition, with clinical implications for personalized intervention. ]
                   </p>
                 </div>
 
@@ -260,7 +260,7 @@ export default function Home() {
       <footer className="bg-white dark:bg-slate-900 shadow-md mt-12">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center text-gray-700 dark:text-gray-300">
           <p>&copy; 2026 Cognitive Neuroscience Portfolio. All rights reserved.</p>
-          <p className="text-sm mt-2">Contact: your.email@example.com</p>
+          <p className="text-sm mt-2">Contact: ak.m@posteo.de</p>
         </div>
       </footer>
     </div>
